@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Orbitron;
+    src: url(Orbitron-Font/Orbitron-Bold.ttf);
+}
+
+body {
+    background: black;
+}
+
+#clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: Orbitron;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17D4FE;
+    font-size: 5vw;
+    letter-spacing: 7px;
+}
+
